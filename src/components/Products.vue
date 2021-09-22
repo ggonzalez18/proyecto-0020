@@ -15,9 +15,10 @@
               <!-- <div :v-text="producto.description"></div> -->
             </v-card-text>
 
+            <v-row justify="center">
             <v-card-actions>
-              <v-btn color="orange" text>Ver Detalle</v-btn>
-            </v-card-actions>
+              <v-btn color="green" dark small>Ver Detalle</v-btn>
+            </v-card-actions></v-row>
           </v-card>
   </div>
 </template>
