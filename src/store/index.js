@@ -7,7 +7,7 @@ export default new Vuex.Store({
     state: {
         productos: {
             plantasInterior: [
-                { name: 'Filodendro', img: 'https://images.pexels.com/photos/54323/rose-composites-flowers-spring-54323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', id: 1, description: 'Aquí va la descripción de mi planta de interior' },
+                { name: 'Filodendro', img: 'https://images.pexels.com/photos/1408221/pexels-photo-1408221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', id: 1, description: 'Aquí va la descripción de mi planta de interior' },
                 { name: 'Petunias', img: 'https://images.pexels.com/photos/3686216/pexels-photo-3686216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', id: 2, description: 'Aquí va la descripción de mi planta de interior' },
                 { name: 'Dolar', img: 'https://images.pexels.com/photos/1179863/pexels-photo-1179863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', id: 3, description: 'Aquí va la descripción de mi planta de interior' }
             ],
