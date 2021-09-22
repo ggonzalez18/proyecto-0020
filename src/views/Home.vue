@@ -1,7 +1,7 @@
 <template>
 <div>
   <nav-bar></nav-bar>
-
+<banner-comp></banner-comp>
   <v-row justify="center" class="mt-12">
     <v-col cols="11">
       <h1 class="text-center">Nuestros productos</h1>
@@ -33,6 +33,7 @@
 <script>
   import NavBar from '../components/NavBar'
   import ProductsComp from '../components/Products'
+  import BannerComp from '../components/Banner'
   import { mapState } from 'vuex'
 
   export default {
@@ -40,6 +41,7 @@
     components: {
       NavBar,
       ProductsComp,
+      BannerComp,
     },
     computed: {
       ...mapState(['productos'])
